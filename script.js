@@ -79,16 +79,19 @@ document.addEventListener('DOMContentLoaded', function () {
                 <input type="text" class="input-answer" id="answer-input" placeholder="Your answer here...">
                 <button onclick="checkAnswer()">Show Answer</button>
             </div>
-            <div class="footer">
-                <p class="fancy-text" style="font-family: 'Great Vibes', cursive; color: green; background: #e0f7e0; padding: 10px; border-radius: 5px;">
-                    Lalit Nimekar Roll No 36
-                </p>
-                <p class="fancy-text" style="font-family: 'Great Vibes', cursive; color: green; background: #e0f7e0; padding: 10px; border-radius: 5px;">
-                    Maharshi Ahirrao Roll No 37
-                </p>
-                <p>Third Year</p>
-                <p>Dr. D. Y. Patil College of Pharmacy, Akurdi, Pune</p>
-            </div>
+           <div class="footer">
+            <p class="fancy-text" style="font-family: 'Roboto', sans-serif; color: green; background: #e0f7e0; padding: 10px; border-radius: 5px;">
+                Prepared By
+            <p class="fancy-text" style="font-family: 'Roboto', sans-serif; color: green; background: #e0f7e0; padding: 10px; border-radius: 5px;">
+                Lalit Nimekar (Roll No-36)
+            </p>
+            <p class="fancy-text" style="font-family: 'Roboto', sans-serif; color: green; background: #e0f7e0; padding: 10px; border-radius: 5px;">
+                Maharshi Ahirrao (Roll No-37)
+            </p>
+            <p>Third Year (DIV-A)</p>
+            <p>B. Pharm 2024-25</p>p>
+            <p>Dr. D. Y. Patil College of Pharmacy, Akurdi, Pune</p>
+        </div>
         `;
         updateProgress();
     }
